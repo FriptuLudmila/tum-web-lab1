@@ -4,116 +4,259 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friptu Ludmila - CV/Resume</title>
-  </head>
+    <!--Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      a {
+        color: #1a73e8;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
 
+      /* Container */
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+
+      /* Header styles */
+      header {
+        background-color: #fff;
+        padding: 20px;
+        border-bottom: 3px solid #1a73e8;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+        color: #444;
+      }
+      header p {
+        margin: 8px 0;
+      }
+
+      /* Horizontal rule styling */
+      hr {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 20px 0;
+      }
+
+      /* Intro section */
+      .intro {
+        background-color: #fff;
+        padding: 20px;
+        border-left: 5px solid #1a73e8;
+        font-size: 1.1em;
+        margin-bottom: 20px;
+      }
+
+      /* Section styles */
+      section {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      section h2 {
+        margin-top: 0;
+        color: #1a73e8;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 10px;
+      }
+
+      /* Article styling */
+      article {
+        margin-bottom: 20px;
+      }
+      article h3 {
+        margin: 0 0 10px;
+      }
+      article p {
+        margin: 8px 0;
+      }
+      article ul {
+        margin: 10px 0 0 20px;
+      }
+      .date {
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 600px) {
+        header h1 {
+          font-size: 2em;
+        }
+        .container {
+          padding: 10px;
+        }
+        header, .intro, section {
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
   <body>
-    <header>
+    <div class="container">
+      <!-- Header -->
+      <header>
         <h1>Friptu Ludmila</h1>
         <p><strong>Home:</strong> Chișinău, Moldova</p>
-        <p><strong>Email:</strong> <a href="mailto:fripludmila03@gmail.com">fripludmila03@gmail.com</a></p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:fripludmila03@gmail.com">fripludmila03@gmail.com</a>
+        </p>
         <p><strong>Phone:</strong> (+373) 69080530</p>
-        <p><strong>LinkedIn:</strong> 
-          <a href="https://www.linkedin.com/in/friptu-ludmila-b6164a2b8">
-            www.linkedin.com/in/friptu-ludmila-b6164a2b8
-          </a>
+        <p>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/friptu-ludmila-b6164a2b8"
+            >www.linkedin.com/in/friptu-ludmila-b6164a2b8</a
+          >
         </p>
         <p><strong>Date of birth:</strong> 05/03/2023</p>
         <p><strong>Nationality:</strong> Moldovan</p>
       </header>
-      <hr>
-      <p>
-        I am a motivated software engineering student with a strong foundation in front-end 
-        development. My goal is to build efficient, user-friendly web applications by 
-        leveraging modern technologies like JavaScript, TypeScript, React, and SQL. Through 
-        various educational programs, I have developed hands-on experience, teamwork skills, 
-        and a passion for continuous learning.
-      </p>
-      <hr>
+
+      <!-- Introduction -->
+      <div class="intro">
+        <p>
+          I am a motivated software engineering student with a strong
+          foundation in front-end development. My goal is to build efficient,
+          user-friendly web applications by leveraging modern technologies like
+          JavaScript, TypeScript, React, and SQL. Through various educational
+          programs, I have developed hands-on experience, teamwork skills, and a
+          passion for continuous learning.
+        </p>
+      </div>
+
+      <!-- Education and Training -->
       <section>
         <h2>EDUCATION AND TRAINING</h2>
-        
         <article>
-          <p><em>[ 18/05/2024 – 18/08/2024 ]</em></p>
+          <p class="date">[ 18/05/2024 – 18/08/2024 ]</p>
           <h3>The Tech Women Mentoring Program 2024</h3>
-          <p><strong>Tech Women</strong> | <a href="https://techwomen.md/">https://techwomen.md/</a></p>
+          <p>
+            <strong>Tech Women</strong> | 
+            <a href="https://techwomen.md/">https://techwomen.md/</a>
+          </p>
           <p><strong>City:</strong> Chișinău | <strong>Country:</strong> Moldova</p>
           <p>
-            The Tech Women Mentoring Program is a 3-month initiative designed to foster 
-            the growth and development of girls and women in STEM fields. This program 
-            connects aspiring mentees with experienced IT professional mentors to share 
-            experiences, insights, and guidance.
+            The Tech Women Mentoring Program is a 3-month initiative designed to
+            foster the growth and development of girls and women in STEM fields.
+            This program connects aspiring mentees with experienced IT professional
+            mentors to share experiences, insights, and guidance.
           </p>
           <p>
-            During the program, I have focused on software development, with a particular 
-            emphasis on front-end development. My learning journey includes mastering:
+            During the program, I focused on software development, with an emphasis
+            on front-end development. My learning journey includes mastering:
           </p>
           <ul>
-            <li><strong>JavaScript:</strong> Gaining proficiency in this essential programming 
-                language to create dynamic and interactive web applications.</li>
-            <li><strong>TypeScript:</strong> Enhancing my JavaScript skills by incorporating 
-                static types to improve code quality and maintainability.</li>
-            <li><strong>HTML &amp; CSS:</strong> Building strong foundational skills in structuring 
-                and styling web content.</li>
-            <li><strong>React:</strong> Learning to build modern, efficient, and scalable user 
-                interfaces using this powerful JavaScript library.</li>
-            <li><strong>Git:</strong> Developing version control skills to manage and collaborate 
-                on code effectively.</li>
+            <li>
+              <strong>JavaScript:</strong> Gaining proficiency in this essential
+              programming language to create dynamic and interactive web
+              applications.
+            </li>
+            <li>
+              <strong>TypeScript:</strong> Enhancing my JavaScript skills by
+              incorporating static types to improve code quality and maintainability.
+            </li>
+            <li>
+              <strong>HTML &amp; CSS:</strong> Building strong foundational skills
+              in structuring and styling web content.
+            </li>
+            <li>
+              <strong>React:</strong> Learning to build modern, efficient, and scalable
+              user interfaces using this powerful JavaScript library.
+            </li>
+            <li>
+              <strong>Git:</strong> Developing version control skills to manage and
+              collaborate on code effectively.
+            </li>
           </ul>
         </article>
-    
+
         <article>
-          <p><em>[ 01/09/2022 – Current ]</em></p>
+          <p class="date">[ 01/09/2022 – Current ]</p>
           <h3>Bachelor of Science, English taught Honours Programme in Software Engineering</h3>
-          <p><strong>Technical University of Moldova</strong> | 
-            <a href="https://utm.md/en/">https://utm.md/en/</a></p>
-          <p><strong>Address:</strong> 9/7 Studenților Street, 2020, Chișinău, Moldova</p>
           <p>
-            In University I loved many courses including: Web Developement, Formal Languages, Maths.
+            <strong>Technical University of Moldova</strong> | 
+            <a href="https://utm.md/en/">https://utm.md/en/</a>
+          </p>
+          <p>
+            <strong>Address:</strong> 9/7 Studenților Street, 2020, Chișinău, Moldova
+          </p>
+          <p>
+            At university, I enjoyed many courses including Web Development,
+            Formal Languages, and Maths.
           </p>
         </article>
-    
+
         <article>
-          <p><em>[ 01/09/2019 – 31/05/2022 ]</em></p>
+          <p class="date">[ 01/09/2019 – 31/05/2022 ]</p>
           <h3>Baccalaureate</h3>
-          <p><strong>Liceul Teoretic Republica "Aristotel"</strong> |
-            <a href="https://aristotel.md/">https://aristotel.md/</a></p>
-          <p><strong>Address:</strong> 1 Sprincenoaia Street, 2028, Chișinău, Moldova</p>
           <p>
-           In High-School I loved studying biology. Everything related to the human body and how it is functioning was a subject of interest for me.
+            <strong>Liceul Teoretic Republica "Aristotel"</strong> | 
+            <a href="https://aristotel.md/">https://aristotel.md/</a>
+          </p>
+          <p>
+            <strong>Address:</strong> 1 Sprincenoaia Street, 2028, Chișinău, Moldova
+          </p>
+          <p>
+            In high school, I loved studying biology. Everything related to the
+            human body and its functions was of great interest to me.
           </p>
         </article>
       </section>
-      <hr>
+
+      <!-- Work Experience -->
       <section>
-    <h2>WORK EXPERIENCE</h2>
-    
-    <article>
-      <p><em>[ 16/09/2024 – 14/12/2024 ]</em></p>
-      <h3>ServiceNow Intern</h3>
-      <p><strong>Endava</strong></p>
-      <p><strong>City:</strong> Chișinău | <strong>Country:</strong> Moldova</p>
-      <p>
-        During my internship at Endava, I engaged in comprehensive training covering 
-        SQL, JavaScript, HTML, CSS, and Excel, which equipped me with a solid 
-        technical foundation. In the ServiceNow platform, I successfully created 
-        and configured tables, forms, and views, and developed catalog items and 
-        automated workflows using flows. I implemented inbound and outbound 
-        actions, authored both client-side and server-side scripts, and designed 
-        UI actions to enhance functionality. Additionally, I customized and 
-        stylized the ServiceNow portal to improve user experience.
-      </p>
-    </article>
-  </section>
-  <hr>
-  <section>
-    <h2>DIGITAL SKILLS</h2>
-    <p><strong>My Digital Skills</strong></p>
-    <ul>
-      <li>Web Technologies Fundamentals – HTML, CSS</li>
-      <li>Version Control System (Git)</li>
-      <li>Beginner JavaScript for Web Development</li>
-      <li>Knowledge of SQL</li>
-    </ul>
-  </section>
+        <h2>WORK EXPERIENCE</h2>
+        <article>
+          <p class="date">[ 16/09/2024 – 14/12/2024 ]</p>
+          <h3>ServiceNow Intern</h3>
+          <p><strong>Endava</strong></p>
+          <p><strong>City:</strong> Chișinău | <strong>Country:</strong> Moldova</p>
+          <p>
+            During my internship at Endava, I engaged in comprehensive training
+            covering SQL, JavaScript, HTML, CSS, and Excel, which equipped me with
+            a solid technical foundation. In the ServiceNow platform, I successfully
+            created and configured tables, forms, and views, and developed catalog
+            items and automated workflows using flows. I implemented inbound and
+            outbound actions, authored both client-side and server-side scripts, and
+            designed UI actions to enhance functionality. Additionally, I customized
+            and stylized the ServiceNow portal to improve user experience.
+          </p>
+        </article>
+      </section>
+
+      <!-- Digital Skills -->
+      <section>
+        <h2>DIGITAL SKILLS</h2>
+        <p><strong>My Digital Skills</strong></p>
+        <ul>
+          <li>Web Technologies Fundamentals – HTML, CSS</li>
+          <li>Version Control System (Git)</li>
+          <li>Beginner JavaScript for Web Development</li>
+          <li>Knowledge of SQL</li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
